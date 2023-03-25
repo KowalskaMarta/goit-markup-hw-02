@@ -5,29 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="index.html">WebStudio</a>
+      <a class="logo, link" href="index.html"
+        ><span class="highlight">Web</span>Studio</a
+      >
       <nav>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a class="link-nav" href="index.html">Agencja</a></li>
+          <li><a class="link-nav" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="link-nav" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
       <!--filters-->
       <section>
         <ul>
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
+          <li><button class="btn-filter" type="button">Wszystkie</button></li>
+          <li><button class="btn-filter" type="button">Strony</button></li>
+          <li><button class="btn-filter" type="button">Aplikacje</button></li>
+          <li><button class="btn-filter" type="button">Dizajn</button></li>
+          <li><button class="btn-filter" type="button">Marketing</button></li>
         </ul>
       </section>
       <!--Galery-->
@@ -40,8 +49,8 @@
               width="370"
               height="294"
             />
-            <h3>Technocrack</h3>
-            <p>Strona internetowa</p>
+            <h3 class="product">Technocrack</h3>
+            <p class="product-description">Strona internetowa</p>
           </li>
           <li>
             <img
@@ -50,8 +59,8 @@
               width="370"
               height="294"
             />
-            <h3>Grafika New Orlean vs Golden Star</h3>
-            <p>Dizajn</p>
+            <h3 class="product">Grafika New Orlean vs Golden Star</h3>
+            <p class="product-description">Dizajn</p>
           </li>
           <li>
             <img
@@ -60,8 +69,8 @@
               width="370"
               height="294"
             />
-            <h3>Restauracja Seafood</h3>
-            <p>Aplikacja</p>
+            <h3 class="product">Restauracja Seafood</h3>
+            <p class="product-description">Aplikacja</p>
           </li>
           <li>
             <img
@@ -70,8 +79,8 @@
               width="370"
               height="294"
             />
-            <h3>Projekt Prime</h3>
-            <p>Marketing</p>
+            <h3 class="product">Projekt Prime</h3>
+            <p class="product-description">Marketing</p>
           </li>
           <li>
             <img
@@ -80,8 +89,8 @@
               width="370"
               height="294"
             />
-            <h3>Projekt Boxes</h3>
-            <p>Aplikacja</p>
+            <h3 class="product">Projekt Boxes</h3>
+            <p class="product-description">Aplikacja</p>
           </li>
           <li>
             <img
@@ -90,8 +99,8 @@
               width="370"
               height="294"
             />
-            <h3>Inspiration has no Borders</h3>
-            <p>Strona internetowa</p>
+            <h3 class="product">Inspiration has no Borders</h3>
+            <p class="product-description">Strona internetowa</p>
           </li>
           <li>
             <img
@@ -100,8 +109,8 @@
               width="370"
               height="294"
             />
-            <h3>Magazyn Limited Edition</h3>
-            <p>Dizajn</p>
+            <h3 class="product">Magazyn Limited Edition</h3>
+            <p class="product-description">Dizajn</p>
           </li>
           <li>
             <img
@@ -110,8 +119,8 @@
               width="370"
               height="294"
             />
-            <h3>Projekt LAB</h3>
-            <p>Marketing</p>
+            <h3 class="product">Projekt LAB</h3>
+            <p class="product-description">Marketing</p>
           </li>
           <li>
             <img
@@ -120,8 +129,8 @@
               width="370"
               height="294"
             />
-            <h3>Growing Business</h3>
-            <p>Aplikacja</p>
+            <h3 class="product">Growing Business</h3>
+            <p class="product-description">Aplikacja</p>
           </li>
         </ul>
       </section>
@@ -130,14 +139,27 @@
     <footer>
       <address>
         <ul>
-          <li><a href="#">WebStudio</a></li>
           <li>
-            <a href="https://goo.gl/maps/G5jL9AZDGEbEC2NTA" target="_blank"
+            <a class="logo" href="#"
+              ><span class="highlight">Web</span>Studio</a
+            >
+          </li>
+          <li>
+            <a
+              class="foot-address"
+              href="https://goo.gl/maps/G5jL9AZDGEbEC2NTA"
+              target="_blank"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="foot-address" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="foot-address" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>

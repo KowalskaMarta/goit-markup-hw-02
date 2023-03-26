@@ -10,22 +10,24 @@ body {
   --lighter-color: #2196f3;
   --description-color: #757575;
   --btn-lighter: #ffffff;
+  --logo-color: #000000;
 }
 .logo {
   font-style: Raleway;
   font-weight: 700;
-  color: #000000;
+  font-size: 26px;
+  color: var(--logo-color);
   text-decoration: none;
   line-height: 1.17;
 }
 .highlight {
   font-style: "Raleway";
   font-weight: 700;
-  color: #2196f3;
+  color: var(--lighter-color);
   line-height: 1.17;
 }
 .link-nav {
-  font-style: "Roboto";
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   color: var(--main-font-color);
@@ -44,52 +46,54 @@ body {
 .contact:focus {
   color: var(--lighter-color);
 }
-h1 {
-  font-style: "Roboto";
+.main-text {
+  font-family: "Roboto";
   font-weight: 900;
-  color: #ffffff;
+  font-size: 44px;
+  color: var(--btn-lighter);
   line-height: 1.36;
 }
 .btn-main {
-  font-style: "Roboto";
+  font-family: "Roboto";
   font-weight: 700;
+  font-size: 16px;
   color: var(--btn-lighter);
   background-color: var(--lighter-color);
   line-height: 1.8;
   cursor: pointer;
 }
-h3 {
-  font-style: "Roboto";
-  font-weight: 700;
+.description-name {
+  font-family: "Roboto";
+  font-size: 14px;
   color: var(--main-font-color);
   line-height: 1.17;
 }
 .description {
-  font-style: "Roboto";
+  font-family: "Roboto";
   font-weight: 400;
   color: var(--description-color);
   line-height: 1.7;
 }
-h2 {
-  font-style: "Roboto";
-  font-weight: 700;
+.section-name {
+  font-family: "Roboto";
+  font-size: 36px;
   color: var(--main-font-color);
   line-height: 1.17;
 }
 .worker {
-  font-style: "Roboto";
+  font-family: "Roboto";
   font-weight: 500;
   color: var(--main-font-color);
   line-height: 1.17;
 }
 .job-position {
-  font-style: "Roboto";
+  font-family: "Roboto";
   font-weight: 400;
   color: var(--description-color);
   line-height: 1.17;
 }
 .foot-address {
-  font-style: "Roboto";
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 400;
   color: var(--btn-lighter);
@@ -97,11 +101,12 @@ h2 {
 }
 .foot-address:hover,
 .foot-address:focus {
-  color: var(--lighter-color);
+  color: var(--lighter-color) 60%;
 }
 .btn-filter {
-  font-style: "Roboto";
+  font-family: "Roboto";
   font-weight: 500;
+  font-size: 16px;
   color: var(--main-font-color);
   line-height: 1.6;
   cursor: pointer;
@@ -113,14 +118,15 @@ h2 {
   cursor: pointer;
 }
 .product {
-  font-style: "Roboto";
-  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 18px;
   color: var(--main-font-color);
   line-height: 2;
 }
 .product-description {
-  font-style: "Roboto";
+  font-family: "Roboto";
   font-weight: 400;
+  font-size: 16px;
   color: var(--description-color);
   line-height: 1.8;
 }

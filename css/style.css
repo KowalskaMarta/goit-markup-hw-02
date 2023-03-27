@@ -11,6 +11,7 @@ body {
   --description-color: #757575;
   --btn-lighter: #ffffff;
   --logo-color: #000000;
+  --footer-contact: rgba (255, 255, 255, 0.6);
 }
 .logo {
   font-family: "Raleway";
@@ -105,7 +106,7 @@ body {
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
-  color: rgba (255 255 255 0.6);
+  color: var(--footer-contact);
   line-height: 1.7;
 }
 .foot-address:hover,
